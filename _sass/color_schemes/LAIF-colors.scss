@@ -1,0 +1,126 @@
+// 1. LUMI Brand Palette
+$LUMI-white:       #ffffff; // Main colour
+$LUMI-black:       #231f20; // Main colour
+$LUMI-purple:      #7477b8; // Additional colour
+$LUMI-blue:        #2c6789; // Additional colour
+$LUMI-magenta:     #ec008c; // Effect colour
+
+// Derived lighter shades for backgrounds and borders (Mixes with white)
+$light-blue:        #abc2d0; 
+$very-light-blue:   #f4f7f9;
+$light-purple:      #c7c9e3;
+$very-light-purple: #f4f4f9;
+$light-magenta:     #f799d1;
+$very-light-magenta: #fef2f9;
+
+$light-grey:        #EFF0F1; // generic neutral backgrounds
+
+// 2. Theme Variables
+$brand-color:         $LUMI-blue;
+$link-color:          $LUMI-blue;
+$body-text-color:     $LUMI-black;
+$sidebar-color: $very-light-purple;
+
+
+// 3. Branded Callouts (Notes & Warnings)
+.note, .warning {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  blockquote { margin: 0; border-left: none; padding: 0; color: inherit; }
+}
+.note { border: 1px solid $light-purple; border-left: 6px solid $LUMI-purple; background-color: $very-light-purple;}
+.warning { border: 1px solid $light-magenta; border-left: 6px solid $LUMI-magenta; background-color: $very-light-magenta;}
+
+
+// 4. Interactive Elements
+:not(pre) > code {
+  color: $LUMI-blue !important;
+  background-color: $light-grey !important;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+a:hover {
+  color: $LUMI-magenta !important;
+  text-decoration: underline;
+}
+
+
+// 5. Code Blocks
+div.highlighter-rouge {
+  margin: 1.5rem 0 !important;
+  width: fit-content !important;
+  min-width: min(100%, 450px) !important;
+  max-width: 100% !important;
+  background-color: $very-light-blue !important;
+  border: 1px solid $LUMI-blue !important;
+  border-radius: 6px !important;
+
+  .highlight {
+    background-color: transparent !important;
+    padding: 1rem !important;
+    padding-right: 3.5rem !important; // Safe zone for default button
+    margin: 0 !important;
+    border: none !important; /* Kills the inner black border */
+    outline: none !important;
+
+    pre {border: none !important; /* Kills any border on the pre tag itself */}
+  }
+}
+
+
+// 6. Top buttons (for websites)
+.aux-nav {
+  order: -1;// Moves it to the left
+  margin-left: 0.25rem;
+}
+
+.aux-nav-list-item a {
+  background-color: $sidebar-color !important;
+  background-image: none !important; /* Kills the default theme gradient */
+  box-shadow: none !important; /* Removes any default theme drop-shadows */
+  border: 1px solid $light-blue !important;
+
+  &:hover {
+    background-color: $light-purple !important;
+    color: $LUMI-magenta !important;
+  }
+}
+
+
+// 7. Responsive YouTube Videos
+iframe[src*="youtube.com"],
+iframe[src*="youtube-nocookie.com"] {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+// 8. Sidebar Navigation
+.site-nav {
+  // 1. Wipe the default hover background off the parent list item
+  .nav-list-item:hover {
+    background: transparent !important;
+  }
+
+  // 2. Apply the solid color to the link itself
+  .nav-list-link:hover {
+    color: $LUMI-magenta !important; 
+    background: $light-purple !important; /* Using your solid light-blue variable */
+  }
+
+  // 3. Wipe the default active background off the parent list item
+  .nav-list-item.active {
+    background: transparent !important;
+  }
+
+  // 4. Apply the active styles
+  .nav-list-link.active {
+    font-weight: 600 !important; 
+    background: $light-purple !important; /* Using a solid color so nothing bleeds through */
+  }
+}
+
+.site-header .site-title:hover {background: $light-purple !important;} // logo button hover colour
