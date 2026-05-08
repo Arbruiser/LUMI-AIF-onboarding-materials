@@ -9,7 +9,7 @@ Welcome! You are here because your organization is ready to take a massive leap 
 
 The LUMI AI Factory is designed to bridge the gap between supercomputers and their usage by the industry. Whether you are a startup scaling your first LLM or an established company optimizing complex simulations, this guide is your first step toward mastering the machine.
 
----
+![LUMI](assets/images/LUMI_supercomputer.jpg)
 
 ## Why LUMI instead of the "Cloud"?
 If you’ve used services like AWS, Google Cloud, or Azure, you might find LUMI a bit different.
