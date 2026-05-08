@@ -74,9 +74,10 @@ What you will need to get started:
 - Chapter 6: Ordering Compute Power (The Slurm Workload Manager). What Slurm is and why we have it. Slurm scripts and partitions. Links to [LUMI Slurm guide](https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/slurm-quickstart/) and simplified explanation of [Slurm partitions](https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/partitions/). [Interactive Slurm jobs](https://docs.lumi-supercomputer.eu/runjobs/scheduled-jobs/interactive/). [Billing on LUMI](https://docs.lumi-supercomputer.eu/runjobs/lumi_env/billing/).
 - Chapter 7: Graduation & Next Steps. Links to all sorts of resources and LUMI scripts, useful documentation, contacts to ask for our help, [LUMI AI Guide](https://github.com/Lumi-supercomputer/LUMI-AI-Guide), [LLM scripts](https://docs.csc.fi/support/tutorials/ml-llm/). 
 
-
 ---
 
+Next Up: Connecting to LUMI
+[Chapter 2: The Keys to the Castle (Access & Security)](https://arbruiser.github.io/LUMI-AIF-onboarding-materials/chapter2.html)
 
 
 # The end of the landingpage!
