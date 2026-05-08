@@ -2,7 +2,6 @@
 layout: home
 title: Chapter 1 - Welcome
 nav_order: 1
-has_children: true
 ---
 
 # LUMI AIF onboarding materials
