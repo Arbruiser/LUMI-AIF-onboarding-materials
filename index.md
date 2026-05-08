@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home page
+title: Chapter 1 - Welcome
 nav_order: 1
 ---
 
