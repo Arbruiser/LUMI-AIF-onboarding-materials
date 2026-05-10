@@ -12,9 +12,7 @@ In the previous chapter, you successfully logged in to LUMI. If you were success
 <username>@uan01:~>       
 ```
 
-**Welcome to the Shell.**
-
-This is the "Command Line Interface" (CLI). It might feel like you've traveled back in time to the 1980s, but in the world of Supercomputing and AI, this is the most modern and powerful way to work.
+**Welcome to the Shell.** This is the "Command Line Interface" (CLI). It might feel like you've traveled back in time to the 1980s, but in the world of Supercomputing and AI, this is the most powerful way to work.
 
 
 ## Command Line Study materials 
@@ -59,19 +57,24 @@ The best way to learn after having studied some theory is to **practice**. Let's
     nano first_file.txt
     ```
 
-    Copy paste something into it (if pressing **ctrl+V** doesn't work, try **ctrl+shift+V**). Save the file by pressing **ctrl+S**. Exit by pressing **ctrl+X**. To help you remember the key combinations, "S" in this case stands for "**S**ave", and "X" stands for "e**x**it". 
+    Copy paste any text into it (if pressing **ctrl+V** doesn't work, try **ctrl+shift+V**). Save the file by pressing **ctrl+S**. Exit by pressing **ctrl+X**. To help you remember the key combinations, "S" in this case stands for "**s**ave", and "X" stands for "e**x**it". 
 
     {: .note }
     > **Note:** The command `nano <filename>` is used to open an existing file or create a new file with that name if it doesn't exist. 
 
-5. Look at the file - `less first_file.txt`. To stop viewing the file, press **q**. 
+5. Look at the file: 
+    ```bash
+    less first_file.txt`
+    ```
+    
+    To stop viewing the file, press **q**. 
 
     {: .note }
     > **Tip:** Instead of typing the whole name of an existing file (such as in step 5), you can type the first few characters of its name and press Tab. If there are multiple files that start with the same few characters, press Tab twice to see available options. 
 
 6. Next we will upload an image from your machine (PC/laptop) to LUMI. For now, we will do it through the "simpler" web interface:
-    > a. Open [www.lumi.csc.fi](www.lumi.csc.fi) in your browser (don't close your terminal!), log in and go to `Home directory`. This is your `$HOME` user directory where we were working in the previous steps. There you should see our `first_dir` with `first_file.txt` in it.
-    > b. Click "Upload" and upload your image to your `$HOME` directory. 
+    - **a.** Open [www.lumi.csc.fi](www.lumi.csc.fi) in your browser (don't close your terminal!), log in and go to `Home directory`. This is your `$HOME` user directory where we were working in the previous steps. There you should see our `first_dir` with `first_file.txt` in it.
+    - **b.** Click "Upload" and upload your image to your `$HOME` directory. 
 
     {: .note }
     > **Tip:** Another, more 'professional' way of uploading files is to use `scp` command as [described here](https://docs.lumi-supercomputer.eu/firststeps/movingdata/).
