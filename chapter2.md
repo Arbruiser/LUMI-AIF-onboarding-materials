@@ -89,4 +89,4 @@ As an industry partner, your code and data are your most valuable assets. To kee
 - You have successfully logged in and saw the "LUMI" welcome text in your terminal.
 
 Next Up: Now that you're inside, what do you actually do?
-[Chapter 3: The Command Line – Your Primary Tool ➡️](https://arbruiser.github.io/LUMI-AIF-onboarding-materials/chapter3.html)
+[Chapter 3: The Command Line – Your Primary Tool ➡️](./chapter3.md)
