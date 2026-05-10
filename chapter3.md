@@ -6,10 +6,10 @@ nav_order: 3
 
 # Chapter 3: The Command Line – Your Primary Tool
 
-In the previous chapter, you successfully logged in to LUMI. If you were successful, you can see LUMI's login wolf, a login "Did you know?" fact, and a bit of text on the last line that looks similar to this: 
+In the previous chapter, you successfully logged in to LUMI. If you were successful, you can see LUMI's login wolf, a login "Did you know?" fact, and your command line prompt that looks similar to this: 
 
 ```bash
-c         
+<username>@uan01:~>       
 ```
 
 #### Welcome to the Shell.
