@@ -5,9 +5,9 @@ nav_order: 1
 ---
 
 # LUMI AIF onboarding materials
-Welcome! You are here because your organization is ready to take a massive leap in AI development using [LUMI](https://lumi-supercomputer.eu/), one of the most powerful and "green" supercomputers in the world.
+Welcome! You are here because you are ready to take a massive leap in AI development using [LUMI](https://lumi-supercomputer.eu/), one of the most powerful and "green" supercomputers in the world.
 
-The LUMI AI Factory is designed to bridge the gap between supercomputers and their usage by the industry. Whether you are a startup scaling your first LLM or an established company optimizing complex simulations, this guide is your first step toward mastering the machine.
+The LUMI AI Factory is designed to bridge the gap between supercomputers and their usage by the industry. Whether you are part of a startup scaling your first LLM or an established company optimizing complex simulations, this guide is your first step toward mastering the machine.
 
 ![LUMI](assets/images/LUMI_supercomputer.jpg)
 
