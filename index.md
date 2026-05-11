@@ -37,6 +37,7 @@ Before we dive in, let’s talk about your data. While LUMI is a secure environm
 If you haven't already applied for a project or requested compute time, your first stop should be the official application portal:
 
 [👉 Apply for LUMI Resources Here](https://lumi-supercomputer.eu/get-started/)
+OR THIS??? https://lumi-ai-factory.eu/pricing-and-eligibility/ and https://lumi-ai-factory.eu/services/super-desk-ai/ 
 
 After you've been granted resources:
 
