@@ -12,7 +12,7 @@ The LUMI AI Factory is designed to bridge the gap between supercomputers and the
 ![LUMI](assets/images/LUMI_supercomputer.jpg)
 
 ## Why LUMI instead of the "Cloud"?
-If you’ve used services like AWS, Google Cloud, or Azure, you might find LUMI a bit different.
+If you’ve used services that provide computational resources for money such as AWS, Google Cloud, or Azure, you might find LUMI a bit different.
 
 - **Computational Power:** LUMI provides access to thousands of powerful AMD processors and GPUs. This massive scale allows you to run complex AI training and heavy simulations that would be cost-prohibitive on standard cloud platforms.
 

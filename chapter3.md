@@ -120,6 +120,12 @@ The best way to learn after having studied some theory is to **practice**. Let's
 
 10. Great job! Now you can disconnect from LUMI by pressing **ctrl+D**. The command prompt has changed, in Linux or MacOS to `your_username_on_your_computer @ the_name_of_your_computer` or `C:\Users\Name` on Windows. This means that you're back to **your machine** in the terminal. 
 
+You can learn more about Linux Command Line on the ['Linux basics tutorial for CSC'](https://docs.csc.fi/support/tutorials/env-guide/) page. 
+
+{: .note }
+> Note to self:
+> Still not covered: `git clone` a GitHub repo (and what they are).
+
 ## Your Command Line dheatsheet
 
 | Command / Key | Action | Quick Note |
